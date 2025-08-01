@@ -1,10 +1,10 @@
 <script>
-import FormularioApp from './components/formulario.vue';
+import FormularioApp from "./components/formulario.vue";
 
 export default {
   name: "App",
-  components: { FormularioApp }
-}
+  components: { FormularioApp },
+};
 </script>
 
 <template>

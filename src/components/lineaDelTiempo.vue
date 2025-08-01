@@ -4,7 +4,7 @@
       <div
         :class="[
           'w-10 h-10 mx-auto rounded-full flex items-center justify-center',
-          step >= n ? 'bg-blue-400 text-white' : 'bg-gray-300 text-gray-700'
+          step >= n ? 'bg-blue-400 text-white' : 'bg-gray-300 text-gray-700',
         ]"
       >
         {{ n }}
@@ -22,8 +22,8 @@ export default {
   props: {
     step: {
       type: Number,
-      required: true
-    }
-  }
-}
+      required: true,
+    },
+  },
+};
 </script>
